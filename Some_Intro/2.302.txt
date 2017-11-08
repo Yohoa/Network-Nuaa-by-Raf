@@ -1,0 +1,23 @@
+# 这是第二步，从一个包含了wlanuserfirsturl 的頁面跳轉到
+# 一個帶from 的頁面
+
+# http://202.119.65.214/iPortal/index.htm?wlanuserfirsturl=http://ip.cn/
+
+GET /iPortal/wireless2.htm?wlanuserfirsturl=http://ip.cn/ HTTP/1.1
+Host: 202.119.65.214
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+Accept-Language: zh-tw
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Tue, 29 Aug 2017 18:24:38 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: http://202.119.65.214/iPortal/index.htm?from=003cc944be32e25365428f2dd2adbbe2&wlanuserfirsturl=http://ip.cn/
+Content-Language: zh-TW

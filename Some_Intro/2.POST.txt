@@ -1,0 +1,18 @@
+
+# 這是經過了層層跳轉後，到達
+
+# http://202.119.65.214/iPortal/index.htm?from=003cc944be32e25365428f2dd2adbbe2&wlanuserfirsturl=http://ip.cn/
+
+# 這一包含了「from」的頁面後進行的一次post 方法。
+
+POST /iPortal/action/doFindUser.do HTTP/1.1
+Host: 202.119.65.214
+Origin: http://202.119.65.214
+Accept-Encoding: gzip, deflate
+Content-Length: 0
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+Referer: http://202.119.65.214/iPortal/index.htm?from=003cc944be32e25365428f2dd2adbbe2&wlanuserfirsturl=http://ip.cn/
+Accept-Language: zh-tw
+X-Requested-With: XMLHttpRequest
