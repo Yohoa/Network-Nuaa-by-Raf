@@ -18,3 +18,4 @@ Hack “nuaa.portal”针对南京航空航天大学校办无线局域网“nuaa
 
 此外，需要对PandoraBox 进行的配置包括：
 1. 设置WAN-on-WiFi，或ISP-on-WiFi。
+2. Crontab 自動檢查在線情況，請參見[這個文檔](./Scripts_working_with_cURL/cron_conf_for_auto_login.sh)。
