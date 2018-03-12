@@ -11,9 +11,9 @@ Hack “nuaa.portal”针对南京航空航天大学校办无线局域网“nuaa
 
 ### 为实现常在线的路由器而准备的系列脚本
 这个版本包含了这些文件
-1. cron_conf_for_auto_login.sh 
+1. cron_conf_for_auto_login.sh
   1. 该文件包含了为cron 准备的保持在线的脚本
-2. PandoraBox-Network-\*.png 
+2. PandoraBox-Network-\*.png
   1. PandoraBox 配置页面的备份。
 
 这些脚本对Linux-based 路由器需求的二进制文件：
@@ -26,4 +26,5 @@ Hack “nuaa.portal”针对南京航空航天大学校办无线局域网“nuaa
 2. Crontab 自動檢查在線情況，請參見[這個文檔](./Scripts_working_with_cURL/cron_conf_for_auto_login.sh)。
 
 ## 2. Utilities, data and conclusion for campus's Internet performance status analysis
+_Please See "Network_Monitoring" Folder._
 
